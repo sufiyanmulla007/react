@@ -1,0 +1,98 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{ background-color: bisque;}
+/* navigation bar styling */
+.navbar{
+    background-color: rgb(77, 78, 80);
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 10px 10px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: cornflowerblue;
+}
+/* search box styling */
+.search{
+    float: right;
+    color: white;
+    padding: 3px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 3px 17px;
+    background-color: white;
+}
+/* heding styling */
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+/* container styling */
+.container{
+    display:inline-block;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    border: double 1px transparent;
+    border-radius: 10px;
+    background-image: 
+    linear-gradient(#1d2a3a,#1d2a3a),
+    linear-gradient(to right, #d78eca,#98a3fb);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: 291px;
+    height: auto;
+    padding: 7px;
+    margin: 76px 474px
+}
+/* button style */
+input{
+ padding: 0.8em 1.8em;
+ margin: 4px;
+ border: 2px solid #17C3B2;
+ position: relative;
+ overflow: hidden;
+ background-color: transparent;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 16px;
+ transition: .3s;
+ z-index: 1;
+ font-family: inherit;
+ color: #17C3B2;
+}
+input::before{
+ content: '';
+ width: 0;
+ height: 300%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(45deg);
+ background: #17C3B2;
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+input:hover::before {
+    width: 105%;
+}
+   
+input:hover {
+    color: #111;
+}

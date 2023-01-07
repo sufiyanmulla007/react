@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(87, 87, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contener{
+    background-color:white;
+    padding: 50px;
+    text-align: center;
+}
+h2{
+    margin: 0px 0px 10px 0px;
+}
+.input{
+    width: 200px;
+    
+}
+#sub{
+    width: 220px;
+    height: 49px;
+    background-color: blue;
+    border: 0px;
+    color: whitesmoke;
+}

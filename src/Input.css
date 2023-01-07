@@ -1,0 +1,9 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 15px;
+    margin: 30px;
+}
